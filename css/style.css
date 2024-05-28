@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    font-size: 21px;
+    color: white;
+    background-color: #F266AB;
+    padding: 12px 30px;
+}
+
+
+body{
+    background-color: #11001B;
+}
+nav{
+    text-align: center;
+    margin: 20px 0;
+}
+footer .menu ul li,
+nav  .menu ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+footer .menu ul li a,
+nav .menu ul li a{
+  font-size: 20px;    
+  font-weight: 300;
+  color: white;
+}
+nav .layer .logo img{
+    display: block;
+    width: 100%;
+}
+footer .social li,
+nav .layer .social li{
+    text-align: center;
+    display: inline-block;
+}
+footer .social span,
+nav .layer .social span{
+   color: #2CD3E1;
+   margin: 0 5px;
+}
+#Banner{
+    padding: 50px 0;
+}
+ .banner_cnt *{
+ margin: 5px 0;
+}
+#Banner .banner_cnt p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+#Banner .banner_cnt h5{
+    font-size: 32px;
+    color: #2CD3E1;
+}
+#Banner .banner_cnt h2{
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+#Banner .banner_cnt .button{
+    margin: 10px 0;
+    border-radius: none;
+}
+#Banner .banner_img img{
+    display: block;
+    width: 100%;
+}
+#About{
+    padding: 50px 0;
+}
+#About .about_img img{
+ display: block;
+ width: 100%;
+}
+.heading h2{
+    font-size: 65px;
+    color: white;
+    font-weight: 600;
+    margin: 5px 0;
+}
+.heading p{
+    font-size: 21px;
+    color: white;
+    font-weight: 400;
+}
+.pBar{
+    margin: 20px 0;
+}
+.pBar p{
+    color: white;
+}
+.active3{
+    background-color: #F266AB;
+    color: white;
+}
+#service{
+    padding: 50px 0;
+}
+#design .heading,
+#Testimonial .heading,
+#Project .heading,
+#service .heading{
+    text-align: center;
+}
+#service .service_cont{
+    padding: 0 15px;
+}
+#service .service_cont .service_container{
+    margin: 20px 0;
+}
+#service .service_cont .service_container .service_cards *{
+  margin:5px 0 ;
+  color: white;
+}
+#service .service_cont .service_container .service_cards h4{
+    font-weight: 600;
+    font-size: 32px;
+}
+#service .service_cont .service_container .service_cards p{
+    font-weight: 400;
+    font-size: 21px;
+    color: rgb(240, 239, 239);
+}
+#service .service_img img{
+    display: block;
+    width: 100%;
+}
+#Project{
+    padding: 50px 0;
+}
+#Project .button_div{
+    margin: 15px 0;
+}
+#Project .button_div ul{
+    text-align: center;
+}
+#Project .button_div ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+#Project .button_div .butn{
+    font-size: 24px;
+    color: white;
+    background-color: #2DD3E1;
+    padding: 6px;
+    border-radius: 5px;
+    color: #000;
+}
+#Project .button_div .active{
+    background-color: #F266AB;
+    color: white;
+}
+#Project .project_container{
+    padding: 0 5px;
+    margin: 10px 0;
+}
+#Project .project_card img{
+    display: block;
+    width: 100%;
+}
+#Testimonial{
+    padding: 50px 0;
+}
+#Testimonial .testimonial_container{
+    padding: 0 15px;
+    margin: 50px 0;
+}
+#Testimonial .testimonial_container .testimonial_card{
+background-color: #FFE4B5;
+padding: 20px;
+}
+#Testimonial .testimonial_container .testimonial_card .test_img img{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#Testimonial .testimonial_container .testimonial_card .test_img{
+    transform: translateY(-50%);
+}
+#Testimonial .testimonial_container .testimonial_card *{
+text-align: center;}
+#Testimonial .testimonial_container .testimonial_card p{
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+}
+#Testimonial .slick-dots{
+    text-align: center;
+
+}
+#Testimonial .slick-dots li{
+    display: inline-block;
+}
+#Testimonial .slick-dots li button{
+ color: transparent;
+ border: none;
+ width: 50PX;
+ border-radius: 5px;
+ height: 5px;
+ margin: 0 5px;
+}
+#Testimonial .slick-dots .slick-active button{
+    background-color: #F266AB;
+}
+#design{
+    padding: 50px 0;
+}
+#design .design_card{
+    margin: 20px 0;
+}
+footer{
+    padding: 50px 0 0 0;
+    background-color: #09000E;
+}
+footer .footer_img {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+footer .menu ul{
+    text-align: center;
+    margin: 10px 0 10px 35px;
+}
+footer .menu ul li a{
+    margin: 0 20px;
+}
+footer .social ul{
+    text-align: center;
+}
+
+
+
+
+
+
